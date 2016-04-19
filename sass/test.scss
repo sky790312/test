@@ -1,0 +1,21 @@
+.section {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+  border: 1px solid gray;
+  width: 80%;
+  height: 50%;
+  > .img {
+    display: inline-block;
+    width: 25%;
+    height: 33.3%;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 768px) {
+	.section {
+	    width: 70%;
+	}
+}
+
+
