@@ -1,4 +1,4 @@
-/* line 1, ../sass/test.scss */
+/* line 3, ../sass/test.scss */
 .section {
   position: absolute;
   top: 0;
@@ -10,16 +10,73 @@
   width: 80%;
   height: 50%;
 }
-/* line 8, ../sass/test.scss */
-.section > .img {
+
+/* line 11, ../sass/test.scss */
+.img {
   display: inline-block;
   width: 25%;
-  height: 33.3%;
+  height: 33%;
   box-sizing: border-box;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: opacity .5s;
+}
+/* line 20, ../sass/test.scss */
+.img.show {
+  opacity: 1;
+}
+/* line 24, ../sass/test.scss */
+.img.img0 {
+  background-image: url("../images/0.png");
+}
+/* line 27, ../sass/test.scss */
+.img.img1 {
+  background-image: url("../images/1.png");
+}
+/* line 30, ../sass/test.scss */
+.img.img2 {
+  background-image: url("../images/2.png");
+}
+/* line 33, ../sass/test.scss */
+.img.img3 {
+  background-image: url("../images/3.png");
+}
+/* line 36, ../sass/test.scss */
+.img.img4 {
+  background-image: url("../images/4.png");
+}
+/* line 39, ../sass/test.scss */
+.img.img5 {
+  background-image: url("../images/5.png");
+}
+/* line 42, ../sass/test.scss */
+.img.img6 {
+  background-image: url("../images/6.png");
+}
+/* line 45, ../sass/test.scss */
+.img.img7 {
+  background-image: url("../images/7.png");
+}
+/* line 48, ../sass/test.scss */
+.img.img8 {
+  background-image: url("../images/8.png");
+}
+/* line 51, ../sass/test.scss */
+.img.img9 {
+  background-image: url("../images/9.png");
+}
+/* line 54, ../sass/test.scss */
+.img.img10 {
+  background-image: url("../images/10.png");
+}
+/* line 57, ../sass/test.scss */
+.img.img11 {
+  background-image: url("../images/11.png");
 }
 
 @media (min-width: 768px) {
-  /* line 16, ../sass/test.scss */
+  /* line 63, ../sass/test.scss */
   .section {
     width: 70%;
   }
